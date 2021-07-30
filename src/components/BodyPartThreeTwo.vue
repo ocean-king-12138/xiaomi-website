@@ -65,7 +65,7 @@
 import { defineComponent, ref } from "vue";
 export default defineComponent({
   name: "App",
-  props: { headImg: Array, headTitle: Array, sourceData: Array },
+  props: { headImg: String, headTitle: String, sourceData: Array },
   setup(props) {
     const headUrl = props.headImg;
     const headTitle = props.headTitle;
